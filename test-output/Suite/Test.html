@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 30 01:56:26 GST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>97 seconds (97588 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TC_001SignupFunctionalityDemoblaze.SignUpFunctionality()'><b>SignUpFunctionality</b><br>Test class: test.TC_001SignupFunctionalityDemoblaze<br>Parameters: nyytrgsjjd, 999, Sign up successful.</td>
+<td></td>
+<td>2</td>
+<td>test.TC_001SignupFunctionalityDemoblaze@a87f8ec</td></tr>
+<tr>
+<td title='test.TC_002LoginFunctionalityDemoBlaze.LoginFunctionality()'><b>LoginFunctionality</b><br>Test class: test.TC_002LoginFunctionalityDemoBlaze<br>Parameters: abc@0, 1234, //a[text()='Welcome abc@0'], Welcome abc@0</td>
+<td></td>
+<td>4</td>
+<td>test.TC_002LoginFunctionalityDemoBlaze@10cf09e8</td></tr>
+<tr>
+<td title='test.TC_004_InvalidLoginFields.tc_004_InvalidLoginFields()'><b>tc_004_InvalidLoginFields</b><br>Test class: test.TC_004_InvalidLoginFields<br>Parameters: withoutsigin, withoutsignin, User does not exist.</td>
+<td></td>
+<td>2</td>
+<td>test.TC_004_InvalidLoginFields@5443d039</td></tr>
+<tr>
+<td title='test.TC_001SignupFunctionalityDemoblaze.SignUpFunctionality()'><b>SignUpFunctionality</b><br>Test class: test.TC_001SignupFunctionalityDemoblaze<br>Parameters: gkj, gkj, This user already exist.</td>
+<td></td>
+<td>2</td>
+<td>test.TC_001SignupFunctionalityDemoblaze@a87f8ec</td></tr>
+<tr>
+<td title='test.TC_004_InvalidLoginFields.tc_004_InvalidLoginFields()'><b>tc_004_InvalidLoginFields</b><br>Test class: test.TC_004_InvalidLoginFields<br>Parameters: zdffd, , Please fill out Username and Password.</td>
+<td></td>
+<td>1</td>
+<td>test.TC_004_InvalidLoginFields@5443d039</td></tr>
+<tr>
+<td title='test.TC_001SignupFunctionalityDemoblaze.SignUpFunctionality()'><b>SignUpFunctionality</b><br>Test class: test.TC_001SignupFunctionalityDemoblaze<br>Parameters: , , Please fill out Username and Password.</td>
+<td></td>
+<td>1</td>
+<td>test.TC_001SignupFunctionalityDemoblaze@a87f8ec</td></tr>
+<tr>
+<td title='test.TC_003_LogoutDisplayedafterLogin.tc_003_LogoutDisplayedafterLogin()'><b>tc_003_LogoutDisplayedafterLogin</b><br>Test class: test.TC_003_LogoutDisplayedafterLogin<br>Parameters: 960019572, acceptnoforuser</td>
+<td></td>
+<td>1</td>
+<td>test.TC_003_LogoutDisplayedafterLogin@4f9a2c08</td></tr>
+<tr>
+<td title='test.TC_001SignupFunctionalityDemoblaze.SignUpFunctionality()'><b>SignUpFunctionality</b><br>Test class: test.TC_001SignupFunctionalityDemoblaze<br>Parameters: 10678, 984, Sign up successful.</td>
+<td></td>
+<td>3</td>
+<td>test.TC_001SignupFunctionalityDemoblaze@a87f8ec</td></tr>
+<tr>
+<td title='test.TC_001SignupFunctionalityDemoblaze.SignUpFunctionality()'><b>SignUpFunctionality</b><br>Test class: test.TC_001SignupFunctionalityDemoblaze<br>Parameters: , 838rf, Please fill out Username and Password.</td>
+<td></td>
+<td>1</td>
+<td>test.TC_001SignupFunctionalityDemoblaze@a87f8ec</td></tr>
+<tr>
+<td title='test.TC_002LoginFunctionalityDemoBlaze.LoginFunctionality()'><b>LoginFunctionality</b><br>Test class: test.TC_002LoginFunctionalityDemoBlaze<br>Parameters: 960019572, acceptnoforuser, //a[text()='Welcome 960019572'], Welcome 960019572</td>
+<td></td>
+<td>3</td>
+<td>test.TC_002LoginFunctionalityDemoBlaze@10cf09e8</td></tr>
+<tr>
+<td title='test.TC_002LoginFunctionalityDemoBlaze.LoginFunctionality()'><b>LoginFunctionality</b><br>Test class: test.TC_002LoginFunctionalityDemoBlaze<br>Parameters: &&^%, &&^%, //a[text()='Welcome &&^%'], Welcome &&^%</td>
+<td></td>
+<td>3</td>
+<td>test.TC_002LoginFunctionalityDemoBlaze@10cf09e8</td></tr>
+<tr>
+<td title='test.TC_001SignupFunctionalityDemoblaze.SignUpFunctionality()'><b>SignUpFunctionality</b><br>Test class: test.TC_001SignupFunctionalityDemoblaze<br>Parameters: *^%&, (*&*, Sign up successful.</td>
+<td></td>
+<td>3</td>
+<td>test.TC_001SignupFunctionalityDemoblaze@a87f8ec</td></tr>
+<tr>
+<td title='test.TC_001SignupFunctionalityDemoblaze.SignUpFunctionality()'><b>SignUpFunctionality</b><br>Test class: test.TC_001SignupFunctionalityDemoblaze<br>Parameters: gkfjsde, , Please fill out Username and Password.</td>
+<td></td>
+<td>2</td>
+<td>test.TC_001SignupFunctionalityDemoblaze@a87f8ec</td></tr>
+<tr>
+<td title='test.TC_004_InvalidLoginFields.tc_004_InvalidLoginFields()'><b>tc_004_InvalidLoginFields</b><br>Test class: test.TC_004_InvalidLoginFields<br>Parameters: , hsd, Please fill out Username and Password.</td>
+<td></td>
+<td>1</td>
+<td>test.TC_004_InvalidLoginFields@5443d039</td></tr>
+</table><p>
+</body>
+</html>

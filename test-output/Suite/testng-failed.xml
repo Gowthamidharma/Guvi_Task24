@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utils.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.TC_001SignupFunctionalityDemoblaze">
+        <methods>
+          <include name="close"/>
+          <include name="launchingbrowser"/>
+          <include name="EndTest"/>
+          <include name="SignUpFunctionality"/>
+          <include name="readfilebeforetest"/>
+          <include name="naivigateurl"/>
+          <include name="StartTest"/>
+        </methods>
+      </class> <!-- test.TC_001SignupFunctionalityDemoblaze -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

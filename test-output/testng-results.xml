@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="20" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-30T01:56:26 GST" name="Suite" finished-at="2024-08-30T01:58:03 GST" duration-ms="97588">
+    <groups>
+    </groups>
+    <test started-at="2024-08-30T01:56:26 GST" name="Test" finished-at="2024-08-30T01:58:03 GST" duration-ms="97588">
+      <class name="test.TC_004_InvalidLoginFields">
+        <test-method is-config="true" signature="readfilebeforetest()[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:56:26 GST" name="readfilebeforetest" finished-at="2024-08-30T01:56:26 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readfilebeforetest -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:57:44 GST" name="launchingbrowser" finished-at="2024-08-30T01:57:46 GST" duration-ms="1382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:57:46 GST" name="naivigateurl" finished-at="2024-08-30T01:57:48 GST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="tc_004_InvalidLoginFields(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:57:48 GST" name="tc_004_InvalidLoginFields" data-provider="getdata" finished-at="2024-08-30T01:57:49 GST" duration-ms="1759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hsd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please fill out Username and Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_004_InvalidLoginFields -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:57:49 GST" name="close" finished-at="2024-08-30T01:57:51 GST" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:57:51 GST" name="launchingbrowser" finished-at="2024-08-30T01:57:53 GST" duration-ms="2501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:57:53 GST" name="naivigateurl" finished-at="2024-08-30T01:57:55 GST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="tc_004_InvalidLoginFields(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:57:55 GST" name="tc_004_InvalidLoginFields" data-provider="getdata" finished-at="2024-08-30T01:57:56 GST" duration-ms="1890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zdffd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please fill out Username and Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_004_InvalidLoginFields -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:57:56 GST" name="close" finished-at="2024-08-30T01:57:57 GST" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:57:57 GST" name="launchingbrowser" finished-at="2024-08-30T01:57:59 GST" duration-ms="1698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:57:59 GST" name="naivigateurl" finished-at="2024-08-30T01:58:01 GST" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="tc_004_InvalidLoginFields(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:58:01 GST" name="tc_004_InvalidLoginFields" data-provider="getdata" finished-at="2024-08-30T01:58:03 GST" duration-ms="2240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[withoutsigin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[withoutsignin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User does not exist.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_004_InvalidLoginFields -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_004_InvalidLoginFields@5443d039]" started-at="2024-08-30T01:58:03 GST" name="close" finished-at="2024-08-30T01:58:03 GST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC_004_InvalidLoginFields -->
+      <class name="test.TC_003_LogoutDisplayedafterLogin">
+        <test-method is-config="true" signature="readfilebeforetest()[pri:0, instance:test.TC_003_LogoutDisplayedafterLogin@4f9a2c08]" started-at="2024-08-30T01:56:26 GST" name="readfilebeforetest" finished-at="2024-08-30T01:56:26 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readfilebeforetest -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_003_LogoutDisplayedafterLogin@4f9a2c08]" started-at="2024-08-30T01:56:55 GST" name="launchingbrowser" finished-at="2024-08-30T01:56:56 GST" duration-ms="1413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_003_LogoutDisplayedafterLogin@4f9a2c08]" started-at="2024-08-30T01:56:56 GST" name="naivigateurl" finished-at="2024-08-30T01:56:58 GST" duration-ms="1962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="tc_003_LogoutDisplayedafterLogin(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_LogoutDisplayedafterLogin@4f9a2c08]" started-at="2024-08-30T01:56:58 GST" name="tc_003_LogoutDisplayedafterLogin" data-provider="getdata" finished-at="2024-08-30T01:57:00 GST" duration-ms="1962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[960019572]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[acceptnoforuser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003_LogoutDisplayedafterLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_003_LogoutDisplayedafterLogin@4f9a2c08]" started-at="2024-08-30T01:57:00 GST" name="close" finished-at="2024-08-30T01:57:01 GST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC_003_LogoutDisplayedafterLogin -->
+      <class name="test.TC_002LoginFunctionalityDemoBlaze">
+        <test-method is-config="true" signature="StartTest()[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:26 GST" name="StartTest" finished-at="2024-08-30T01:56:26 GST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTest -->
+        <test-method is-config="true" signature="readfilebeforetest()[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:26 GST" name="readfilebeforetest" finished-at="2024-08-30T01:56:26 GST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readfilebeforetest -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:29 GST" name="launchingbrowser" finished-at="2024-08-30T01:56:33 GST" duration-ms="4816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:33 GST" name="naivigateurl" finished-at="2024-08-30T01:56:35 GST" duration-ms="2067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:35 GST" name="LoginFunctionality" data-provider="getdata" finished-at="2024-08-30T01:56:40 GST" duration-ms="4144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//a[text()='Welcome abc@0']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome abc@0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:40 GST" name="close" finished-at="2024-08-30T01:56:40 GST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:40 GST" name="launchingbrowser" finished-at="2024-08-30T01:56:42 GST" duration-ms="1530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:42 GST" name="naivigateurl" finished-at="2024-08-30T01:56:43 GST" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:43 GST" name="LoginFunctionality" data-provider="getdata" finished-at="2024-08-30T01:56:47 GST" duration-ms="3807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[960019572]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[acceptnoforuser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//a[text()='Welcome 960019572']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome 960019572]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:47 GST" name="close" finished-at="2024-08-30T01:56:47 GST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:47 GST" name="launchingbrowser" finished-at="2024-08-30T01:56:49 GST" duration-ms="1447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:49 GST" name="naivigateurl" finished-at="2024-08-30T01:56:51 GST" duration-ms="1707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:51 GST" name="LoginFunctionality" data-provider="getdata" finished-at="2024-08-30T01:56:54 GST" duration-ms="3628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[&&^%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[&&^%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//a[text()='Welcome &&^%']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome &&^%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:56:54 GST" name="close" finished-at="2024-08-30T01:56:55 GST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="EndTest()[pri:0, instance:test.TC_002LoginFunctionalityDemoBlaze@10cf09e8]" started-at="2024-08-30T01:58:05 GST" name="EndTest" finished-at="2024-08-30T01:58:05 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+      </class> <!-- test.TC_002LoginFunctionalityDemoBlaze -->
+      <class name="test.TC_001SignupFunctionalityDemoblaze">
+        <test-method is-config="true" signature="readfilebeforetest()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:56:26 GST" name="readfilebeforetest" finished-at="2024-08-30T01:56:26 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readfilebeforetest -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:01 GST" name="launchingbrowser" finished-at="2024-08-30T01:57:02 GST" duration-ms="1452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:02 GST" name="naivigateurl" finished-at="2024-08-30T01:57:04 GST" duration-ms="2076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="SignUpFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:04 GST" name="SignUpFunctionality" data-provider="getdata" finished-at="2024-08-30T01:57:07 GST" duration-ms="2360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nyytrgsjjd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[999]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sign up successful.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:07 GST" name="close" finished-at="2024-08-30T01:57:07 GST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:07 GST" name="launchingbrowser" finished-at="2024-08-30T01:57:09 GST" duration-ms="1299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:09 GST" name="naivigateurl" finished-at="2024-08-30T01:57:10 GST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="SignUpFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:10 GST" name="SignUpFunctionality" data-provider="getdata" finished-at="2024-08-30T01:57:14 GST" duration-ms="3694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10678]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[984]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sign up successful.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:14 GST" name="close" finished-at="2024-08-30T01:57:14 GST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:14 GST" name="launchingbrowser" finished-at="2024-08-30T01:57:16 GST" duration-ms="1356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:16 GST" name="naivigateurl" finished-at="2024-08-30T01:57:17 GST" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="SignUpFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:17 GST" name="SignUpFunctionality" data-provider="getdata" finished-at="2024-08-30T01:57:20 GST" duration-ms="3579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[*^%&]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[(*&*]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sign up successful.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:20 GST" name="close" finished-at="2024-08-30T01:57:20 GST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:20 GST" name="launchingbrowser" finished-at="2024-08-30T01:57:22 GST" duration-ms="1644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:22 GST" name="naivigateurl" finished-at="2024-08-30T01:57:24 GST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="SignUpFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:24 GST" name="SignUpFunctionality" data-provider="getdata" finished-at="2024-08-30T01:57:27 GST" duration-ms="2975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gkj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gkj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This user already exist.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:27 GST" name="close" finished-at="2024-08-30T01:57:27 GST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:27 GST" name="launchingbrowser" finished-at="2024-08-30T01:57:28 GST" duration-ms="1435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:28 GST" name="naivigateurl" finished-at="2024-08-30T01:57:31 GST" duration-ms="2647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="SignUpFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:31 GST" name="SignUpFunctionality" data-provider="getdata" finished-at="2024-08-30T01:57:33 GST" duration-ms="1593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[838rf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please fill out Username and Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:33 GST" name="close" finished-at="2024-08-30T01:57:33 GST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:33 GST" name="launchingbrowser" finished-at="2024-08-30T01:57:34 GST" duration-ms="1354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:34 GST" name="naivigateurl" finished-at="2024-08-30T01:57:36 GST" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="SignUpFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:36 GST" name="SignUpFunctionality" data-provider="getdata" finished-at="2024-08-30T01:57:39 GST" duration-ms="2598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gkfjsde]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please fill out Username and Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:39 GST" name="close" finished-at="2024-08-30T01:57:39 GST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingbrowser(java.lang.String)[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:39 GST" name="launchingbrowser" finished-at="2024-08-30T01:57:40 GST" duration-ms="1405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowser -->
+        <test-method is-config="true" signature="naivigateurl()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:40 GST" name="naivigateurl" finished-at="2024-08-30T01:57:42 GST" duration-ms="1860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naivigateurl -->
+        <test-method signature="SignUpFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:42 GST" name="SignUpFunctionality" data-provider="getdata" finished-at="2024-08-30T01:57:44 GST" duration-ms="1630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please fill out Username and Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC_001SignupFunctionalityDemoblaze@a87f8ec]" started-at="2024-08-30T01:57:44 GST" name="close" finished-at="2024-08-30T01:57:44 GST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC_001SignupFunctionalityDemoblaze -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
